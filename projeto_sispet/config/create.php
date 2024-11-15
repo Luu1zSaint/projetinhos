@@ -12,7 +12,7 @@
 <body>
     <h1>Registrar-se!</h1>
     <div class="container-fluid">
-        <form action="#" method="post" class="">
+        <form action="validate.php" method="post" class="">
             <div class="col-4 mb-3">
                 <label for="userName">Nome Completo:</label>
                 <input type="text" name="userName" class="form-control" placeholder="Seu nome completo:">
@@ -42,7 +42,7 @@
                 <input type="password" name="password2" class="form-control" placeholder="Confirmar senha: ">
             </div>
             <div class="col-4 mt-4 divBtn">
-                <button type="submit" name="submitRegister" class="btn btn-primary">Registrar</button>
+                <button type="submit" name="submitType" value="register" class="btn btn-primary">Registrar</button>
                 <a href="../public/index.php" class="">Sair</a>
             </div>
         </form>

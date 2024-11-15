@@ -12,7 +12,7 @@
 <body>
     <h1>Seja Bem Vindo(a)!</h1>
     <div class="container-fluid">
-        <form action="#" method="post" class="">
+        <form action="../config/validate.php" method="post" class="">
             <div class="col-4 mb-3">
                 <label for="email">E-Mail:</label>
                 <input type="email" name="email" class="form-control" placeholder="Seu e-mail: ">
@@ -22,7 +22,7 @@
                 <input type="password" name="password" class="form-control" placeholder="Sua senha: ">
             </div>
             <div class="col-4 mt-4 divBtn">
-                <button type="submit" name="submitLogin" class="btn btn-primary ">Entrar</button>
+                <button type="submit" name="submitType" value="login" class="btn btn-primary ">Entrar</button>
                 <a href="../config/create.php" class="">Registrar-se!</a>
             </div>
         </form>
